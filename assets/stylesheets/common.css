@@ -1,0 +1,28 @@
+.title {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  overflow: hidden; }
+  .title img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    -webkit-filter: brightness(0.5); }
+  .title h1 {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -45%);
+    z-index: 3; }
+
+.release-info h2 {
+  margin: 10px; }
+.release-info p {
+  text-align: center; }
+
+.wedding-info h2 {
+  margin: 10px; }
+
+/*# sourceMappingURL=common.css.map */
