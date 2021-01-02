@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import ListLink from '../components/ListLink'
 
 export default function Home() {
   return (
@@ -14,34 +15,10 @@ export default function Home() {
         <h1>kazumalab's page</h1>
 
         <ul>
-          <li>
-            <Link href="https://kazumalab.hatenablog.com/">
-              <a target="_blank">
-                Blog
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://twitter.com/kazumalab">
-              <a target="_blank">
-                Twitter
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://github.com/kazumalab" target="_blank">
-              <a target="_blank">
-                Github
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://www.npmjs.com/~kazumalab" target="_blank">
-              <a target="_blank">
-                npm
-              </a>
-            </Link>
-          </li>
+          <ListLink title="Blog" url="https://kazumalab.hatenablog.com/"></ListLink>
+          <ListLink title="Twitter" url="https://twitter.com/kazumalab"></ListLink>
+          <ListLink title="Github" url="https://github.com/kazumalab"></ListLink>
+          <ListLink title="npm" url="https://www.npmjs.com/~kazumalab"></ListLink>
         </ul>
       </main>
 
