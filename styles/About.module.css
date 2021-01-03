@@ -1,0 +1,18 @@
+.profileImage {
+  margin: 0 auto;
+  display: block;
+}
+
+.profileName {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.profileDescription {
+  text-align: center;
+  margin: 10px;
+}
+
+.back {
+  text-align: center;
+}
